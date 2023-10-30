@@ -39,6 +39,7 @@ $$y'= \frac{h_{21}x+h_{22}y+h_{23}}{h_{31}x+h_{32}y+h_{33}}$$
   <img src="images/formula3.png" width="300"/>
 </p>
 
+Solve the h matrix above then map the pixel from source to destination.  
 ## Result
 This project implements the function by forward mapping: origin->result.  
 Which causes the black strips in the result.  

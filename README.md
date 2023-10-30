@@ -36,7 +36,7 @@ $$x'= \frac{h_{11}x+h_{12}y+h_{13}}{h_{31}x+h_{32}y+h_{33}}$$
 $$y'= \frac{h_{21}x+h_{22}y+h_{23}}{h_{31}x+h_{32}y+h_{33}}$$
 
 <p align="center">
-  <img src="images/formula3.png" width="300"/>
+  <img src="images/formula3.png" width="400"/>
 </p>
 
 Solve the h matrix above then map the pixel from source to destination.  

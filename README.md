@@ -56,13 +56,22 @@ There are two ways to eliminate the black strips.
 ## How to use
 ### Windows
 CPU:  
-$ nvcc -o {output_file} perspective_transformation_CPU.cu -arch=sm_75  
-$ {output_file}.exe  
+  ```
+  nvcc -o pt_cpu perspective_transformation_CPU.cu -arch=sm_75  
+  pt_cpu.exe
+  ```
 GPU:  
-$ nvcc -o {output_file} perspective_transformation_GPU_device1.cu -arch=sm_75  
-$ {output_file}.exe  
+  ```
+  nvcc -o pt_gpu perspective_transformation_GPU_device1.cu -arch=sm_75  
+  pt_gpu.exe
+  ```
 ### Linux
+
 CPU:  
-$ ./compile_cpu.sh  
-GPU:  
-$ ./compile_gpu_1.sh  
+  ```
+  ./compile_cpu.sh  
+  ```
+GPU: 
+  ```
+  ./compile_gpu_1.sh  
+  ```

@@ -54,7 +54,7 @@ There are two ways to eliminate the black strips.
 | CPU | 0.027 |  |
 | GPU | 0.0072 | 3.7 |
 
-<img src="images/profiling.png" title="profiling" />
+<img src="images/profiling2.png" title="profiling" />
 
 The pie chart above which is obtained from nvprof shows the time used for calculation only occupies 3% of the execution time.  
 
